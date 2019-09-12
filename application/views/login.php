@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		 ?>
 			<form method="post" action="<?php echo base_url();?>login/validation">
 				<div class="form-group">
-					<label>Enter Email</label>
+					<label>Enter Email Address Only Alphabets</label>
 					<input type="text" class="form-control" name="email" value="<?php echo set_value('email'); ?>" />
 					<span class="text text-danger"><?php echo form_error('email'); ?></span>
 				</div>
