@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <br>
 <div id="container " class="col-md-5">
 	<div class="panel panel-default ">
-		<div class="panel-heading">Registration here</div>
+		<div class="panel-heading">Register here</div>
 		<div class="panel-body">
 		<?php
 			if($this->session->flashdata('message'))
